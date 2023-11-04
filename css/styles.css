@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    
+  
+    display: flex;
+    flex-direction: column;
+  
+    
+}
+.container-botones {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+a {
+    text-decoration: none;
+    color: #d9e5e9 !important;
+
+}
+
+.boton {
+    padding: 2px;
+    margin: 8px;
+    background-color: rgb(49, 81, 240);
+    
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    border: 2px solid;
+    border-color: #318aac;
+    transition: all 1s ease;
+    position: relative;
+    border-radius: 10px;
+
+}
+
+.boton:hover {
+    background: #318aac;
+    color: #fff !important;
+    cursor: pointer;
+    
+}
+.firma{
+  align-items:end!important;
+  justify-content:end;
+  text-align: center;
+color:white;
+font-size: 20px;
+font-weight: 200;
+margin-top: 20px;
+
+
+}

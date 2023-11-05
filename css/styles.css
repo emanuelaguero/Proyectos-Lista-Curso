@@ -32,10 +32,11 @@ body {
 a {
     text-decoration: none;
     color: #d9e5e9 !important;
-
+  
 }
 
 .boton {
+    text-align: center;
     padding: 2px;
     margin: 8px;
     background-color: rgb(49, 81, 240);
